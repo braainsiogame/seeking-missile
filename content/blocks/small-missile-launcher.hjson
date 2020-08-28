@@ -1,0 +1,14 @@
+name: Small Missile Launcher
+description: Launch small missiles, super slow.
+type: ItemTurret
+ammo: {
+  plastanium: {
+    type: MissileBulletType
+    damage: 50
+    fragBullet: artilleryPlasticFrag 
+    speed: 1
+    lifetime: 30000
+    homingPower: 300
+    homingRange: 3000
+  }
+}
